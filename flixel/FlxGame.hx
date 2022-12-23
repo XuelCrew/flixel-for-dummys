@@ -259,7 +259,7 @@ class FlxGame extends Sprite
 	 *
 	 * @see [scale modes](https://api.haxeflixel.com/flixel/system/scaleModes/index.html)
 	 */
-	public function new(gameWidth = 0, gameHeight = 0, ?initialState:Class<FlxState>, updateFramerate = 60, drawFramerate = 60, skipSplash = false,
+	public function new(gameWidth = 0, gameHeight = 0, ?initialState:Class<FlxState>, updateFramerate = 144, drawFramerate = 144, skipSplash = false,
 			startFullscreen = false)
 	{
 		super();
